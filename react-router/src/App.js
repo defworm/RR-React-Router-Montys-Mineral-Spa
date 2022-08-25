@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home'
 import About from './components/About'
 import Packages from './components/Packages'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
             </li>
             <li>
             <Link to = "/packages">Our Packages</Link>
+            </li>
+            <li>
+            <Link to = "/contact">Contact Us</Link>
             </li>
           </ul>
           </div>
